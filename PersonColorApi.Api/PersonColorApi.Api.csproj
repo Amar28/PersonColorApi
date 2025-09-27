@@ -8,6 +8,15 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0"/>
   </ItemGroup>
+
+      <ItemGroup>
+        <ProjectReference Include="..\PersonColorApi.Application\PersonColorApi.Application.csproj"/>
+        <ProjectReference Include="..\PersonColorApi.Domain\PersonColorApi.Domain.csproj"/>
+        <ProjectReference Include="..\PersonColorApi.Infrastructure\PersonColorApi.Infrastructure.csproj"/>
+    </ItemGroup>
+
 
 </Project>

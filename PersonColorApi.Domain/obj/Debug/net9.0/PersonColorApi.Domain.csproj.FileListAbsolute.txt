@@ -1,0 +1,12 @@
+C:\Users\armand\PersonColorApi\PersonColorApi.Domain\bin\Debug\net9.0\PersonColorApi.Domain.deps.json
+C:\Users\armand\PersonColorApi\PersonColorApi.Domain\bin\Debug\net9.0\PersonColorApi.Domain.dll
+C:\Users\armand\PersonColorApi\PersonColorApi.Domain\bin\Debug\net9.0\PersonColorApi.Domain.pdb
+C:\Users\armand\PersonColorApi\PersonColorApi.Domain\obj\Debug\net9.0\PersonColorApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\armand\PersonColorApi\PersonColorApi.Domain\obj\Debug\net9.0\PersonColorApi.Domain.AssemblyInfoInputs.cache
+C:\Users\armand\PersonColorApi\PersonColorApi.Domain\obj\Debug\net9.0\PersonColorApi.Domain.AssemblyInfo.cs
+C:\Users\armand\PersonColorApi\PersonColorApi.Domain\obj\Debug\net9.0\PersonColorApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\armand\PersonColorApi\PersonColorApi.Domain\obj\Debug\net9.0\PersonColorApi.Domain.sourcelink.json
+C:\Users\armand\PersonColorApi\PersonColorApi.Domain\obj\Debug\net9.0\PersonColorApi.Domain.dll
+C:\Users\armand\PersonColorApi\PersonColorApi.Domain\obj\Debug\net9.0\refint\PersonColorApi.Domain.dll
+C:\Users\armand\PersonColorApi\PersonColorApi.Domain\obj\Debug\net9.0\PersonColorApi.Domain.pdb
+C:\Users\armand\PersonColorApi\PersonColorApi.Domain\obj\Debug\net9.0\ref\PersonColorApi.Domain.dll

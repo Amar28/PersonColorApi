@@ -18,4 +18,10 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+    <ItemGroup>
+    <ProjectReference Include="..\PersonColor.Application\PersonColor.Application.csproj" />
+    <ProjectReference Include="..\PersonColor.Infrastructure\PersonColor.Infrastructure.csproj" />
+    <ProjectReference Include="..\PersonColor.Domaine\PersonColor.Domaine.csproj" />
+  </ItemGroup>
+
 </Project>
