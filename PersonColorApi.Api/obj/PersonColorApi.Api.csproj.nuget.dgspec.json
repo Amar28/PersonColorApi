@@ -30,7 +30,17 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Application\\PersonColorApi.Application.csproj": {
+                "projectPath": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Application\\PersonColorApi.Application.csproj"
+              },
+              "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Domain\\PersonColorApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Domain\\PersonColorApi.Domain.csproj"
+              },
+              "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Infrastructure\\PersonColorApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Infrastructure\\PersonColorApi.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -49,9 +59,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -69,6 +87,219 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Application\\PersonColorApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Application\\PersonColorApi.Application.csproj",
+        "projectName": "PersonColorApi.Application",
+        "projectPath": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Application\\PersonColorApi.Application.csproj",
+        "packagesPath": "C:\\Users\\armand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\armand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Domain\\PersonColorApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Domain\\PersonColorApi.Domain.csproj"
+              },
+              "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Infrastructure\\PersonColorApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Infrastructure\\PersonColorApi.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Domain\\PersonColorApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Domain\\PersonColorApi.Domain.csproj",
+        "projectName": "PersonColorApi.Domain",
+        "projectPath": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Domain\\PersonColorApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\armand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\armand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Infrastructure\\PersonColorApi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Infrastructure\\PersonColorApi.Infrastructure.csproj",
+        "projectName": "PersonColorApi.Infrastructure",
+        "projectPath": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Infrastructure\\PersonColorApi.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\armand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\armand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Domain\\PersonColorApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Domain\\PersonColorApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

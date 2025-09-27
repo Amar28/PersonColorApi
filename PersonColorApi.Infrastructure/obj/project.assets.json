@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "PersonColorApi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/PersonColorApi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PersonColorApi.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PersonColorApi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PersonColorApi.Domain/PersonColorApi.Domain.csproj",
+      "msbuildProject": "../PersonColorApi.Domain/PersonColorApi.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "PersonColorApi.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\armand\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Domain\\PersonColorApi.Domain.csproj": {
+              "projectPath": "C:\\Users\\armand\\PersonColorApi\\PersonColorApi.Domain\\PersonColorApi.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,16 @@
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\bin\Debug\net9.0\PersonColorApi.Infrastructure.deps.json
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\bin\Debug\net9.0\PersonColorApi.Infrastructure.dll
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\bin\Debug\net9.0\PersonColorApi.Infrastructure.pdb
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\bin\Debug\net9.0\PersonColorApi.Domain.dll
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\bin\Debug\net9.0\PersonColorApi.Domain.pdb
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\obj\Debug\net9.0\PersonColorApi.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\obj\Debug\net9.0\PersonColorApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\obj\Debug\net9.0\PersonColorApi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\obj\Debug\net9.0\PersonColorApi.Infrastructure.AssemblyInfo.cs
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\obj\Debug\net9.0\PersonColorApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\obj\Debug\net9.0\PersonColorApi.Infrastructure.sourcelink.json
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\obj\Debug\net9.0\PersonCo.CB073E00.Up2Date
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\obj\Debug\net9.0\PersonColorApi.Infrastructure.dll
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\obj\Debug\net9.0\refint\PersonColorApi.Infrastructure.dll
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\obj\Debug\net9.0\PersonColorApi.Infrastructure.pdb
+C:\Users\armand\PersonColorApi\PersonColorApi.Infrastructure\obj\Debug\net9.0\ref\PersonColorApi.Infrastructure.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PersonColorApi.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1eaf045e6bb54ef3bfed02326c4b1606633d4ede")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69e48d61643b3eea3e67c94003375e73c84171f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PersonColorApi.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PersonColorApi.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
