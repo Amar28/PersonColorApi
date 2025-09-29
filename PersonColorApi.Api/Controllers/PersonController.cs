@@ -1,5 +1,6 @@
 using Application.Persons.DTOs;
 using Application.Persons.Queries;
+using Application.Persons.Commands;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,6 +12,13 @@ namespace Api.Controllers
     {
         private readonly IMediator _mediator;
         public PersonsController(IMediator mediator) => _mediator = mediator;
+
+        [HttpPost]
+        public async Task<ActionResult<PersonDto>> Create([FromBody] CreatePersonCommand command)
+        {
+            var person = await _mediator.Send(command);
+            return CreatedAtAction(nameof(GetById), new { id = person.Id }, person);
+        }
 
         [HttpGet]
         public async Task<IEnumerable<PersonDto>> GetAll() => await _mediator.Send(new GetAllPersonsQuery());

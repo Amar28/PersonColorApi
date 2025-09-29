@@ -1,5 +1,6 @@
 using PersonColorApi.Domain.Entities;
 using PersonColorApi.Domain.Interfaces;
+using System.Text;
 using System.Globalization;
 
 namespace Infrastructure.Repositories
@@ -7,6 +8,7 @@ namespace Infrastructure.Repositories
     public class CsvPersonRepository : IPersonRepository
     {
         private readonly string _csvFilePath;
+        private readonly List<Person> _inMemoryPersons = new();
         private readonly Dictionary<int, string> _colorMap = new()
         {
             {1,"blau"}, {2,"grün"}, {3,"violett"}, {4,"rot"}, {5,"gelb"}, {6,"türkis"}, {7,"weiß"}
@@ -48,6 +50,23 @@ namespace Infrastructure.Repositories
                 });
             }
             return persons;
+        }
+
+        private async Task SaveCsvAsync(List<Person> persons)
+        {
+            var lines = persons.Select(p =>
+                $"{p.LastName}, {p.Name}, {p.ZipCode} {p.City}, {_colorMap.First(c => c.Value == p.Color).Key}"
+            );
+            await File.WriteAllLinesAsync(_csvFilePath, lines, Encoding.UTF8);
+        }
+
+        public async Task<Person> AddAsync(Person person)
+        {
+            var persons = await LoadCsvAsync();
+            person.Id = persons.Count + 1;
+            persons.Add(person);
+            await SaveCsvAsync(persons);
+            return person;
         }
 
         public async Task<IEnumerable<Person>> GetAllAsync() => await LoadCsvAsync();
