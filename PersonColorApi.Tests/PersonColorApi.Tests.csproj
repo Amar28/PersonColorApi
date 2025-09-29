@@ -12,6 +12,8 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
     <PackageReference Include="xunit" Version="2.9.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+    <PackageReference Include="Moq" Version="4.20.70" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,9 +21,10 @@
   </ItemGroup>
 
     <ItemGroup>
-    <ProjectReference Include="..\PersonColor.Application\PersonColor.Application.csproj" />
-    <ProjectReference Include="..\PersonColor.Infrastructure\PersonColor.Infrastructure.csproj" />
-    <ProjectReference Include="..\PersonColor.Domaine\PersonColor.Domaine.csproj" />
+    <ProjectReference Include="..\PersonColorApi.Api\PersonColorApi.Api.csproj" />
+    <ProjectReference Include="..\PersonColorApi.Application\PersonColorApi.Application.csproj" />
+    <ProjectReference Include="..\PersonColorApi.Infrastructure\PersonColorApi.Infrastructure.csproj" />
+    <ProjectReference Include="..\PersonColorApi.Domain\PersonColorApi.Domain.csproj" />
   </ItemGroup>
 
 </Project>

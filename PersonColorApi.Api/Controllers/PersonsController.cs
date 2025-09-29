@@ -21,7 +21,13 @@ namespace Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<PersonDto>> GetAll() => await _mediator.Send(new GetAllPersonsQuery());
+        public async Task<ActionResult<IEnumerable<PersonDto>>> GetAll()
+        {
+
+            var persons = await _mediator.Send(new GetAllPersonsQuery());
+
+            return Ok(persons);
+        }
 
         [HttpGet("{id:int}")]
         public async Task<ActionResult<PersonDto>> GetById(int id)
@@ -31,6 +37,11 @@ namespace Api.Controllers
         }
 
         [HttpGet("color/{color}")]
-        public async Task<IEnumerable<PersonDto>> GetByColor(string color) => await _mediator.Send(new GetPersonsByColorQuery(color));
+        public async Task<ActionResult<IEnumerable<PersonDto>>> GetByColor(string color)
+        {
+            var person = await _mediator.Send(new GetPersonsByColorQuery(color));
+
+            return Ok(person);
+        }
     }
 }
