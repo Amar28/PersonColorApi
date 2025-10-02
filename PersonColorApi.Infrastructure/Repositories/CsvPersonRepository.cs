@@ -3,12 +3,11 @@ using PersonColorApi.Domain.Interfaces;
 using System.Text;
 using System.Globalization;
 
-namespace Infrastructure.Repositories
+namespace PersonColorApi.Infrastructure.Repositories
 {
     public class CsvPersonRepository : IPersonRepository
     {
         private readonly string _csvFilePath;
-        private readonly List<Person> _inMemoryPersons = new();
         private readonly Dictionary<int, string> _colorMap = new()
         {
             {1,"blau"}, {2,"grün"}, {3,"violett"}, {4,"rot"}, {5,"gelb"}, {6,"türkis"}, {7,"weiß"}
