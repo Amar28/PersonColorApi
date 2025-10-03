@@ -9,4 +9,5 @@ namespace PersonColorApi.Infrastructure.Ef
 
         public DbSet<Person> Person { get; set; } = null!;
     }
+
 }
